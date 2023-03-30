@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Swiper.JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- Font Awoesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Css href -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Resturant</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <i class="fas fa-utensils"></i>
+        ali maleki
+      </a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#pista">pista</a>
+        <a href="#home">home</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- Search Form -->
+    <form id="search-form">
+      <input type="search" placeholder="Search Here ..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Dad Spaghetti</h3>
+              <p>Spaghetti like never before invented. Enjoy!</p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./image/home/1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Honey-Garlic Chicken</h3>
+              <p>
+                I have used it often. it is easy and uses pantry staples. Always
+                a hit with adults and kids. Serve with basmati rice or quinoa
+                and steamed or roasted vegetables.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./image/home/2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Air Fryer Hot Dogs</h3>
+              <p>
+                Prefectly crisp hot dogs and toasted buns made in minutes with
+                the help of your air fryer. Top with ketchup, mustard, relish,
+                chili, or condiments of chioce.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./image/home/3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Dishes -->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="./image/dishes/1.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="./image/dishes/2.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="./image/dishes/3.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="./image/dishes/4.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="./image/dishes/5.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="./image/dishes/6.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./image/about-img.png" alt="about" />
+        </div>
+
+        <div class="content">
+          <h3>best food in the country</h3>
+          <p>
+            When visitors go to your website, the first place they go is your
+            landing page. If they have an interest past your landing page, they
+            will probably go to your “About Us” page to learn more. When a
+            website visitor decides to go to the “About Us” page fo your
+            Fastfood Company, he or she is on a fact-finding mission, as well as
+            looking for the “story” of your Fastfood Company.
+          </p>
+          <p>
+            It’s crucial that your “About Us” page says what goods or services
+            your Fastfood Company provides.
+          </p>
+
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>easy payments</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>24 / 7 services</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>free delivery</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today speciality</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/1.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/2.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/3.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/4.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/5.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/6.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/7.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/8.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./image/menu/9.jpg" alt="menu-1" />
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h3>delicious food</h3>
+            <p>
+              The mammoth meatball was produced by Vow, an Australian company,
+              which is taking a different approach to cultured meat.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pista -->
+    <section class="pista" id="pista">
+      <h3 class="sub-heading">customer review</h3>
+      <h1 class="heading">what ther say</h1>
+
+      <div class="swiper-container pista-slider">
+      
+        <div class="swiper-wrapper wrapper">
+        
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./image/pic/1.png" />
+              <div class="user-info">
+                <h3>Ali Maleki</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, sed diam nonummy nibh euismod
+              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+              enim ad minim veniam, quis nostrud exerci tation ullamcorper
+              suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+              autem vel eum iriure dolor in hendrerit in vulputate velit esse
+              molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+              vero eros et accumsan et iusto odio dignissim qui blandit praesent
+              luptatum zzril delenit augue duis dolore te feugait nulla
+              facilisi.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./image/pic/2.png" />
+              <div class="user-info">
+                <h3>Asal Sahami</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, sed diam nonummy nibh euismod
+              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+              enim ad minim veniam, quis nostrud exerci tation ullamcorper
+              suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+              autem vel eum iriure dolor in hendrerit in vulputate velit esse
+              molestie consequat.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./image/pic/3.png" />
+              <div class="user-info">
+                <h3>Ali Maleki</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              quis nostrud exerci tation ullamcorper
+              suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+              autem vel eum iriure dolor in hendrerit in vulputate velit esse
+              molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+              vero eros et accumsan et iusto odio dignissim qui blandit praesent
+              luptatum zzril delenit augue duis dolore te feugait nulla
+              facilisi.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./image/pic/4.png" />
+              <div class="user-info">
+                <h3>Saba Karimi</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, sed diam nonummy nibh euismod
+              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+              enim ad minim veniam.
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="swiper-pagination slide-2"></div>
+
+      </div>
+    </section>
+      
+      
+    <!-- Order -->
+    <section class="order" id="order">
+    
+      <h3 class="sub-heading"> order now </h3>
+      <h1 class="heading"> free and fast </h1>
+    
+      <form action="">
+      
+        <div class="inputBox">
+          <div class="input">
+            <span>your name </span>
+            <input type="text" placeholder="enter your name">
+          </div>
+          <div class="input">
+            <span>your number </span>
+            <input type="number" placeholder="enter your number">
+          </div>
+        </div>
+      
+        <div class="inputBox">
+          <div class="input">
+            <span> your order </span>
+            <input type="text" placeholder="enter food name">
+          </div>
+          <div class="input">
+            <span> additional food </span>
+            <input type="test" placeholder="extra with food">
+          </div>
+        </div>
+      
+        <div class="inputBox">
+          <div class="input">
+            <span> how much </span>
+            <input type="number" placeholder="how many orders">
+          </div>
+          <div class="input">
+            <span> date and time </span>
+            <input type="date" placeholder="datetime-local">
+          </div>
+        </div>
+      
+        <div class="inputBox">
+          <div class="input">
+            <span> your address </span>
+            <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="input">
+            <span> your message </span>
+            <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+      
+        <input type="submit" value="order now" class="btn">
+      
+      </form>
+    
+    </section>
+    
+    
+    <!-- Footer -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="">india</a>
+          <a href="">japan</a>
+          <a href="">russia</a>
+          <a href="">iran</a>
+          <a href="">france</a>
+        </div>
+        
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="">home</a>
+          <a href="">dishes</a>
+          <a href="">about</a>
+          <a href="">menu</a>
+          <a href="">review</a>
+          <a href="">order</a>
+        </div>
+        
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="">+123-456-7890</a>
+          <a href="">+111-222-333</a>
+          <a href="">info@gmail.com</a>
+          <a href="">info@gmail.com</a>
+          <a href="">mirdamad, Tehran - 402531</a>
+        </div>
+        
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="">facebook</a>
+          <a href="">twitter</a>
+          <a href="">instagram</a>
+          <a href="">linkedin</a>
+        </div>
+        
+      </div>
+      
+      <div class="credit">
+        copyright @ 2023 by <span>ali maleki</span>
+      </div>
+      
+    </section>
+    
+    
+    
+    
+
+    <!-- Swiper.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
